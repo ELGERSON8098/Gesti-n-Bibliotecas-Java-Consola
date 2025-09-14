@@ -11,7 +11,7 @@ public class Biblioteca {
         usuarios = new ArrayList<>();
     }
 
-   
+
     public void registrarLibro(Libro libro) {
         libros.add(libro);
         System.out.println("✅ Libro registrado correctamente.");
@@ -74,7 +74,7 @@ public class Biblioteca {
         }
     }
 
-   
+
     private Libro buscarLibro(String titulo) {
         for (Libro libro : libros) {
             if (libro.getTitulo().equalsIgnoreCase(titulo)) return libro;
