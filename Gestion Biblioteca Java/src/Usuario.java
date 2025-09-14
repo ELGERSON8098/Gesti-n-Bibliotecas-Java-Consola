@@ -12,9 +12,17 @@ public class Usuario {
         this.librosPrestados = new ArrayList<>();
     }
 
-    public String getNombre() { return nombre; }
-    public String getId() { return id; }
-    public ArrayList<String> getLibrosPrestados() { return librosPrestados; }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public ArrayList<String> getLibrosPrestados() {
+        return librosPrestados;
+    }
 
     public void prestarLibro(String titulo) {
         librosPrestados.add(titulo);

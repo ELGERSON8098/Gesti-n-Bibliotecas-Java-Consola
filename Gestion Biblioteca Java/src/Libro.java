@@ -14,11 +14,25 @@ public class Libro {
         this.disponible = true;
     }
 
-    public String getTitulo() { return titulo; }
-    public String getAutor() { return autor; }
-    public int getAnioPublicacion() { return anioPublicacion; }
-    public String getGenero() { return genero; }
-    public boolean isDisponible() { return disponible; }
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public int getAnioPublicacion() {
+        return anioPublicacion;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public boolean isDisponible() {
+        return disponible;
+    }
 
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
